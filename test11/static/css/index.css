@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+header{
+  height: 720px;
+  flex-direction: column;
+  display: flex;
+}
+main {
+  display: flex;
+  margin: 2vw;
+  height: 540px;
+  flex-direction: column;
+}
+footer{
+  height: 520px;
+  background: #e8e6e6;
+}
+dt{
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+dd{
+  padding-top: 8px;
+  list-style: none;
+  margin: 0;
+  font-size: 0.2rem;
+}
+dd:hover{
+  color: #c5c3c3;
+  cursor: pointer;
+}
+p:hover{
+  color: #c5c3c3;
+  cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* 对于 640~980 分辨率 */
+@media screen and (min-width: 640px) and (max-width: 980px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* 对于 980~ 分辨率 */
+@media screen and (min-width: 980px) {
+  html {
+    font-size: 22px;
+  }
+}
+.title{
+  height: 60px;
+  display: flex;
+  background: #ffff;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  flex-direction: row;
+}
+.title-box{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  overflow:hidden ;
+}
+.title-box:hover{
+  background: #c5c3c3;
+  cursor: pointer;
+}
+.title-box img{
+  width: 4.5rem;
+  height: 1.5rem;
+}
+.head-img{
+  height: 660px;
+}
+.head-img img{
+  width: 100%;
+  height: 100%;
+}
+.m-list{
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+}
+.sm-list{
+  flex: 1;
+  margin: 1.5vw;
+  background: #c5c3c3;
+}
+.sm-list:hover{
+  cursor: pointer;
+}
+.sm-list img{
+  width: 100%;
+  height: 100%;
+}
+.f-list{
+  margin: 20px 3.5vw 40px 3.5vw;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+.text-list{
+  flex: 1;
+}
+.footbar{
+  height: 35px;
+  border-top:1px solid #999999;
+  border-bottom:1px solid #999999;
+  margin: 0 3.5vw 0 3.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+.end{
+  height: 67px;
+  margin: 0 3.5vw 0 3.5vw;
+  font-size: 0.5rem;
+  display:flex;
+  justify-content: right;
+  align-items: center;
+}
