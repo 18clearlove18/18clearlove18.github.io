@@ -1,0 +1,65 @@
+{
+  "id": "4076992",
+  "name": "播放界面",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2674474",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "19654124",
+      "name": "音乐列表",
+      "font_class": "yinleliebiao",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "1314427",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1621094",
+      "name": "分享",
+      "font_class": "share",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "8341784",
+      "name": "上一首",
+      "font_class": "shangyishou",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8341786",
+      "name": "下一首",
+      "font_class": "xiayishou",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "10885300",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "33711681",
+      "name": "随机播放",
+      "font_class": "suijibofang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
